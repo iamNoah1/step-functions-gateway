@@ -1,5 +1,5 @@
 # Step Functions Example
-This is an example hello world api created with the serverless framework and AWS Step Functions.
+This is an example of creating, deploying and incoking AWS Step Functions created with the Serverless Framework. This time we will also add an AWS API Gateway.
 
 
 ## Prerequisites
