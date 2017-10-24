@@ -1,5 +1,5 @@
 # Step Functions Example
-This is an example of creating, deploying and incoking AWS Step Functions created with the Serverless Framework. This time we will also add an AWS API Gateway.
+This is an example of creating, deploying and invoking AWS Step Functions created with the Serverless Framework. This time we will also add an AWS API Gateway.
 
 
 ## Prerequisites
