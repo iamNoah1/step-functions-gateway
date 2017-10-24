@@ -75,6 +75,10 @@ stepFunctions:
             Type: Task
             Resource: "arn:aws:lambda:#{AWS::Region}:#{AWS::AccountId}:function:${self:service}-${opt:stage}-ciao"
             End: true
+      events:
+        - http:
+            path: execute
+            method: POST
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
